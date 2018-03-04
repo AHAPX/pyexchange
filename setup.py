@@ -3,13 +3,10 @@ from distutils.core import setup
 
 setup(
     name = 'pyexchange',
-    packages = ['pyexchange'],
-    package_dir={'pyexchange': '.'},
-    version = '0.1',
-    description = 'Python lib for bx.in.th market',
+    version = '0.5',
+    description="Maker pyexchange library",
     author = 'MakerDAO',
     url = 'https://github.com/AHAPX/pyexchange',
-    download_url = 'https://github.com/AHAPX/pyexchange/archive/0.1.tar.gz',
     install_requires=[
         'pytz',
         'web3==3.16.4',
@@ -21,5 +18,4 @@ setup(
         'python-dateutil==2.6.1'
     ],
     keywords = ['crypto', 'trading'],
-    classifiers = [],
 )
